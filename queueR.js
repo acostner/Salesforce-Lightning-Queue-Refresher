@@ -1,7 +1,7 @@
 window.onload = function () { 
 
 	function qRefresh() {
-		document.querySelector('#split-left').querySelector('button[name="refreshButton"]').click();
+		document.querySelector('#split-left').querySelectorAll('button[name="refreshButton"]').click();
 	}
 
 	setInterval(function() {
